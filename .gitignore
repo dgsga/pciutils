@@ -7,3 +7,4 @@ setpci
 example
 update-pciids
 pci.ids.gz
+.DS_Store
