@@ -100,7 +100,7 @@ darwin_detect(struct pci_access *a)
       return 0;
     }
   a->debug("...using AppleACPIPlatformExpert");
-  a->fd = connect;
+  darwin_connect = connect;
   return 1;
 }
 
